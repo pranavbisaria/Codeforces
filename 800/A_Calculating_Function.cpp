@@ -1,10 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int n, f;
-    cin>>n;
-    if(n%2==0){
-        n/2(2*n + )
-    }
-    cout<<f<<"\n";
+    long long int T, a=0;
+    cin>>T;
+    if(T%2==0) a=T/2;
+    else a= (T+1)/(-2);
+    cout<<a<<"\n";
 }
